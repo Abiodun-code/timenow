@@ -1,0 +1,327 @@
+@media screen and (max-width: 600px) {
+
+  /* Header Styling */
+  .header {
+    display: block;
+    width: 100%;
+    height: 165vh;
+  }
+
+  /* Left Header Styling for the navigator bar */
+  .header .header-left {
+    width: 100%;
+    padding: 2rem 0 0 2rem;
+  }
+
+  /* Left Header navigator bar design */
+  .header-left .header-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+  }
+
+  .nav-ul ul {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+    position: absolute;
+    font-size: 1.5rem;
+    color: black;
+    background-color: white;
+    border: none;
+    outline: none;
+    top: 2.2rem;
+    right: 2rem;
+  }
+
+  .nav-ul-mobile ul {
+    list-style: none;
+    position: absolute;
+    display: block;
+    background-color: #1b1b88;
+    left: 1.4rem;
+    top: 73px;
+    transition: ease-in-out;
+    width: 87%;
+    border-radius: 1rem;
+  }
+
+  ul li {
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    padding: 1.3rem;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+
+  /* Left Header Text design */
+  .header-left .header-text {
+    margin: 3rem 0 0 0;
+  }
+
+  .header-text h1 {
+    width: 90%;
+    font-size: 2.9rem;
+    font-weight: 630;
+    color: #1b1b88;
+  }
+
+  .header-text p {
+    width: 92%;
+    font-size: 1.5rem;
+    font-weight: 450;
+    color: #1b1b88;
+  }
+
+  .header-text .text-button {
+    width: 70%;
+    height: 11.5vh;
+    padding-top: 1rem;
+  }
+
+  .text-button button {
+    width: 52%;
+    height: 8vh;
+    font-size: 1rem;
+    font-weight: 450;
+  }
+
+  .header-left .header-data {
+    width: 95%;
+    margin: 2rem 0 0 0;
+  }
+
+  .header-data p {
+    font-size: 1.2rem;
+  }
+
+  /* Right Header Styling */
+  .header .header-right {
+    width: 100%;
+    background-color: aqua;
+  }
+
+  .header-right .header-button {
+    display: none;
+  }
+
+  .header-right .right-image {
+    width: 90%;
+    height: 72vh;
+    padding: 3rem 0 0 0;
+  }
+
+  .right-image img {
+    width: 100%;
+    height: 90%;
+  }
+
+  /* Review Styling */
+  .review {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .review .review-shift {
+    width: 80%;
+    height: 100vh;
+    display: block;
+    margin: 2rem 0 0 2rem;
+  }
+
+  .review-shift .review-left {
+    width: 100%;
+  }
+
+  .review-left h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #1b1b88;
+  }
+
+  .review-left .review-image {
+    padding-top: 1.5rem;
+    display: block;
+    width: 100%;
+  }
+
+  .review-image img {
+    width: 15%;
+  }
+
+  /* Review Right Styling */
+  .review-shift .review-right {
+    width: 100%
+  }
+
+  .review-right .right-first {
+    padding-top: 2rem;
+    font-size: 1.7rem;
+    font-weight: 300;
+    width: 90%;
+  }
+
+  .review-right .right-second {
+    padding-top: 2rem;
+    font-size: 1.7rem;
+    font-weight: 300;
+    width: 90%;
+  }
+
+  /* Review Styling End */
+
+  /* Dashboard Styling */
+  .dashboard {
+    width: 100%;
+    height: 160vh;
+    margin: 3rem 0 0 0;
+    background-color: aqua;
+  }
+
+  .dashboard .dashboard-shift {
+    width: 85%;
+    height: 160vh;
+    margin: 0 0 0 2rem;
+    display: block;
+  }
+
+  .dashboard-shift .dashboard-left {
+    width: 90%;
+    height: 80vh;
+    margin: 2rem 0 0 0;
+  }
+
+  .dashboard-left h1 {
+    font-size: 2.3rem;
+    font-weight: 300;
+    color: #1b1b88;
+  }
+
+  .dashboard-left h2 {
+    font-size: 3rem;
+    font-weight: 450;
+  }
+
+  .dashboard-left p {
+    font-size: 1.6rem;
+    font-weight: 350;
+    color: #1b1b88;
+    padding-top: 1rem;
+  }
+
+  .dashboard-left button {
+    width: 60%;
+    height: 10vh;
+    color: white;
+    font-size: 1.4rem;
+    background-color: #1b1b88;
+    border: none;
+    border-radius: .3rem;
+    cursor: pointer;
+    font-weight: 450;
+    margin-top: 1rem;
+  }
+
+  .dashboard-shift .dashboard-right {
+    width: 90%;
+    height: 60vh;
+    margin: 3.2rem 0 0 0;
+  }
+
+  .dashboard-right h1 {
+    font-size: 2.3rem;
+    font-weight: 300;
+    color: #1b1b88;
+  }
+
+  .dashboard-right h2 {
+    font-size: 2.8rem;
+    font-weight: 450;
+    color: #1b1b88;
+    padding-top: 1rem;
+  }
+
+  .dashboard-right p {
+    font-size: 1.6rem;
+    font-weight: 350;
+    color: #1b1b88;
+    padding-top: 1rem;
+  }
+
+  .dashboard-right main {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+  }
+
+  /* Footer Styling Started */
+  .footer {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .footer .footer-shift {
+    width: 90%;
+    height: 100vh;
+    margin: 3rem 0 0 2rem;
+    display: block;
+    justify-content: space-between;
+  }
+
+  .footer-shift .footer-left {
+    width: 90%;
+    height: 90vh;
+  }
+
+  .footer-left img {
+    width: 10%;
+  }
+
+  .footer-left .footer-text {
+    width: 100%;
+    height: 25vh;
+    margin: 1.3rem 0 0 0;
+    display: block;
+    justify-content: space-between;
+  }
+
+  .footer-text .text {
+    width: 100%;
+  }
+
+  .text h1 {
+    padding: 1rem 0 0 6rem;
+    font-size: 2.5rem;
+    font-weight: 450;
+    cursor: pointer;
+  }
+
+  .text p {
+    padding: .5rem 0 0 6rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    cursor: pointer;
+  }
+
+  .footer-shift .footer-right {
+    width: 90%;
+    height: 20vh;
+    padding-left: 4rem;
+  }
+
+  .footer-right .form-section {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+  }
+
+  .footer-right h1 {
+    padding-top: 4rem;
+    font-size: 2rem;
+    font-weight: 450;
+  }
+}
